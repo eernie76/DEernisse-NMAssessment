@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>GaimanHubEAR</display-name>
+  <module>
+    <web>
+      <web-uri>GaimanHub.war</web-uri>
+      <context-root>GaimanHub</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>GaimanHubService-0.0.1-SNAPSHOT.war</web-uri>
+      <context-root>GaimanHubService</context-root>
+    </web>
+  </module>
+</application>
